@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Calibri, sans-serif;
+  }
+
+main {
+  flex: 1;
+}
+
+a{
+    text-decoration: none;
+  }
+
+  footer{
+    background-color: transparent;
+    padding: 1rem;
+    text-align: center;
+  }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#navbar {
+    background-color: #F1F1F1;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+    color: #F28901;
+    padding-left: 2%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right:25px;
+}
+
+.nombreUsuario{
+    padding: 4%;
+}
+
+.linea {
+    border-top: 2px solid #000;
+    margin-top: 10px; 
+}
+
+.precioStock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    padding-left: 5%;
+}
+
+.precio {
+    margin-right: 5px 0;
+}
+
+.stock {
+    background-color: #FFA500;  
+    color: white;  
+    padding: 5px 15px;  
+    border-radius: 30px;  
+    align-self: flex-end; 
+    margin-right: 80px;
+}
+
+
+.producto {
+    display: flex;  
+    justify-content: center; 
+    align-items: center;  
+    padding: 20px;
+    background-color: #f9f9f9;  
+    margin-top: 20px;  
+}
+
+.imagenProducto img {
+    width: 450px;  
+    height: auto;  
+    border-radius: 10px;  
+    margin-right: 20px; 
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .miniaturas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .miniatura {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border 0.2s;
+  }
+  
+  .miniatura:hover {
+    border: 2px solid orange;
+  }
+  
+  .imagenProducto img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+
+.infoProducto {
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+    max-width: 500px;  
+    text-align: center;  
+}
+
+.descripcion {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #555;  
+    line-height: 1.5;  
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;  
+    gap: 10px;  
+    margin-top: 20px;
+}
+
+.button .btn {
+    background-color: #FFA500;  
+    color: white;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 20px;  
+    cursor: pointer;  
+    font-size: 16px;  
+    transition: background-color 0.3s;  
+}
+
+.button .btn:hover {
+    background-color: #ff7f00;  
+}
+
+.cantidadContenedor {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.cantidad {
+    font-size: 16px;
+    margin-right: 10px;  
+}
+
+.cantidadInput {
+    width: 50px;  
+    height: 30px;  
+    font-size: 16px;  
+    text-align: center;  
+    border-radius: 5px;  
+    border: 1px solid #ccc;  
+    padding: 5px;
+}
+
+.valoracion svg {
+    fill: #FFA500; 
+    margin: 5px; 
+    width: 20px;  
+    height: 20px;  
+}
+
+.inputGroup {
+    margin-bottom: 20px; 
+}
+
+.inputGroup label {
+    font-size: 14px; 
+    font-weight: 600; 
+    color: #333; 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.inputGroup input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    transition: all 0.3s ease; 
+    background-color: #f9f9f9; 
+}
+
+.inputGroup input:focus {
+    outline: none; 
+    border-color: #F28901; 
+    background-color: #fff; 
+    box-shadow: 0 0 5px rgba(242, 137, 1, 0.5); 
+}
+
+.inputGroup input::placeholder {
+    color: #bbb; 
+    font-style: italic; 
+}
